@@ -2,9 +2,11 @@ const input = document.querySelector('input');
 const btn = document.querySelector('button');
 const div = document.querySelector('div');
 
+const textArray = [];
+
 const addElement = (event) => {
-  let textValue = event.target.value;
-  console.log(textValue);
+  let textValue = input.value
+
 }
 
-input.addEventListener('input', addElement)
+btn.addEventListener('click', addElement);
